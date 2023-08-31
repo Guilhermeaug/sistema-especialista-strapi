@@ -80,6 +80,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::additional-data.additional-data"
+    },
+    "fullName": {
+      "type": "string"
     }
   }
 }
