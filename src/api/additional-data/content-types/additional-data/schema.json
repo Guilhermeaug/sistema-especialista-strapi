@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_datas",
+  "info": {
+    "singularName": "additional-data",
+    "pluralName": "additional-datas",
+    "displayName": "Additional Data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "institution": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "patients_pages",
+  "info": {
+    "singularName": "patients-page",
+    "pluralName": "patients-pages",
+    "displayName": "Patients-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

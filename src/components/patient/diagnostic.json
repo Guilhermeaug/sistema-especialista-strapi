@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_patient_diagnostics",
+  "info": {
+    "displayName": "Diagnostic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.pill",
+      "required": true
+    },
+    "summary": {
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

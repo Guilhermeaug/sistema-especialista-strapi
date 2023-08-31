@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_patient_therapeutics",
+  "info": {
+    "displayName": "Therapeutic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.question",
+      "required": true
+    },
+    "summary": {
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

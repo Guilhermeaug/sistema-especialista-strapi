@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_pills",
+  "info": {
+    "displayName": "pill"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "feedback": {
+      "type": "string",
+      "required": true
+    },
+    "correct": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

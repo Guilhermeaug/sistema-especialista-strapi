@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_form_selects",
+  "info": {
+    "displayName": "Select",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "regex": "^[a-z]+$"
+    },
+    "values": {
+      "type": "json",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "select"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "options": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.options",
+      "required": true
+    }
+  }
+}

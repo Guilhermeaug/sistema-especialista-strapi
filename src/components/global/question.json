@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_evaluation_questions",
+  "info": {
+    "displayName": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "A": {
+      "type": "string",
+      "required": true
+    },
+    "B": {
+      "type": "string",
+      "required": true
+    },
+    "C": {
+      "type": "string",
+      "required": true
+    },
+    "D": {
+      "type": "string",
+      "required": true
+    },
+    "feedback_a": {
+      "type": "text",
+      "required": true
+    },
+    "feedback_b": {
+      "type": "text",
+      "required": true
+    },
+    "feedback_c": {
+      "type": "text",
+      "required": true
+    },
+    "feedback_d": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "integer",
+      "max": 3,
+      "min": 0,
+      "required": true
+    }
+  }
+}
