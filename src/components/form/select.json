@@ -8,8 +8,7 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true,
-      "regex": "^[a-z]+$"
+      "required": true
     },
     "values": {
       "type": "json",
